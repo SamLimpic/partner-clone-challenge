@@ -80,3 +80,14 @@ background-color: black;
 .title:hover {
     text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .banner-float {
+    background-color: var(--white);
+    position: absolute;
+    bottom: -1.5rem;
+}
+
+}
