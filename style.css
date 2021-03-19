@@ -11,6 +11,7 @@
 
 .label {
     border: 5px;
+    background-color: inherit;
     border-style: solid;
     border-color: var(--black);
     box-shadow: -5px 5px 1px var(--info);
