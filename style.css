@@ -4,14 +4,14 @@
 
 .bg-image {
     background-image:url(./Assets/partner-main-bg.jpg);
-    min-height: 50vh;
+    min-height: 35vh;
 }
 
 .label {
     border: 5px;
     border-style: solid;
     border-color: var(--black);
-    filter: drop-shadow(-30px, 10px, 4px, var(--info));
+    box-shadow: -5px 5px 1px var(--info);
 }
 
 .top-border {
@@ -22,6 +22,12 @@
 
 .faded-top-border {
     border-top: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(143, 143, 143);
+}
+
+.thin-faded-top-border {
+    border-top: 1px;
     border-top-style: solid;
     border-top-color: rgb(143, 143, 143);
 }
