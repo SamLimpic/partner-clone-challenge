@@ -4,7 +4,9 @@
 
 .bg-image {
     background-image:url(./Assets/partner-main-bg.jpg);
-    min-height: 35vh;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: top;
 }
 
 .label {
@@ -90,10 +92,9 @@ background-color: black;
 
 @media only screen and (max-width: 768px) {
 
-    .banner-float {
-    background-color: var(--white);
-    position: absolute;
-    bottom: -1.5rem;
-}
-
+    .bg-image {
+        height: 10vh;
+        background-position: top;
+    }
+    
 }
